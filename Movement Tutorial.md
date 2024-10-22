@@ -19,7 +19,8 @@ To check if there are no errors press play.If there are just come back here and 
 The next step is to go back to the script and go down to void Update(). Under it will be two curly brackets and a space between them, thats were you will write your next lines of code.
 The first line of code will Vector3 move = Vector3.right * Input.GetAxis("Horizontal"). Vector is where your players spawn  direction and the 3 is for the 3 different axis' (X,Y,Z). I put 
 right in because that will be where the player is facing. Input.GetAxis("Horizontal") ensures that the player will also be able to face the left when moving left. After you finish that line,
-create a new line under it and type transform.Translate(move * speed * Time.deltaTime). Transform is just the component that is in charge of the position, scale and rotation of t a game object.
+create a new line under it and type transform.Translate(move * speed * Time.deltaTime). Transform is just the component that is in charge of the position, scale and rotation of t a game object. The 
+astrisk (*) is  vm nvm
 
 
 
