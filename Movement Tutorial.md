@@ -20,10 +20,16 @@ The next step is to go back to the script and go down to void Update(). Under it
 The first line of code will Vector3 move = Vector3.right * Input.GetAxis("Horizontal"). Vector is where your players spawn  direction and the 3 is for the 3 different axis' (X,Y,Z). I put 
 right in because that will be where the player is facing. Input.GetAxis("Horizontal") ensures that the player will also be able to face the left when moving left. After you finish that line,
 create a new line under it and type transform.Translate(move * speed * Time.deltaTime). Transform is just the component that is in charge of the position, scale and rotation of t a game object. The 
-astrisk (*) is  vm nvm
+astrisk (*) is used as the times sign (x) in code.Make sure you put a semicolon at the end of all your lines of code or else it wont work.
+
+![image](https://github.com/user-attachments/assets/6cf7a3fb-312f-4258-af7c-f571ed84e70f)
+
+Above is what the line of code should look like and below is what the whole thing should look like. That is how to make a movement script.
+
+![image](https://github.com/user-attachments/assets/09faf82a-6575-4974-9f11-dbac612ae331)
 
 
 
-Make sure you put a semicolon
-at the end.
+
+
 
