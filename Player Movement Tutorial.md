@@ -1,4 +1,4 @@
-In this tutorial i will teach you how to move your player in unity, using a movement script. 
+In this tutorial i will teach you how to move your player and make the player in unity (run and jump), using a movement script. 
 First you crate a script in unity by right clicking in the project area and scrolling up to create. After clicking create,
 many options will appear and you press the one that says "C# Script". You will be taken into visual studios where your script is.
 
