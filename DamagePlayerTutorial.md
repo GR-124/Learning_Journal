@@ -25,4 +25,7 @@ The last line of code needed in this script tyes back to the beginning and will 
 
 ![image](https://github.com/user-attachments/assets/7bae4537-d518-40a6-8eb9-5c04c60112cb)
 
-Depending on if you have a health controller script and a respawn controller script, this script should work but if not come back to see what you did wrong.
+Depending on if you have a health controller script and a respawn controller script, this script should work but if not come back to see what you did wrong. Goodbye and your welcome for the tutorial :).
+
+![image](https://github.com/user-attachments/assets/dc300f28-b28c-4f4a-a2bd-7970db63958e)
+
