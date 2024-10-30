@@ -15,4 +15,14 @@ This whole thing ensures that when colliding with whatever has the script will t
 ![image](https://github.com/user-attachments/assets/97f4c17e-581a-4d53-9155-d5c17ab04ab8)
 
 Next create some space between the last lines of code so we can make a new line of code. The first new line is ----> private void OnTriggerEnter2D(Collider2D other). This line is for if whatever is mean to damage the player
-is a projectile. When that projectile enters the players barrier (collider) it will trigger damage to the player.
+is a projectile. When that projectile enters the players barrier (collider) it will trigger something in the player. Next is to go under the line and add curly brackets with space between. In that space type in a this
+if statement ---> if (other.gameObject.tag == "Player"). After this put curly brackets under it and make sure there is a space inbetween. In the space, type ----> DealDamage(). We've typed in these lines before but the difference is that the damage is triggered by something entering the players barrier.
+
+![image](https://github.com/user-attachments/assets/772784b2-bb13-41b5-85fe-1c4ddc263b96)
+
+The last line of code needed in this script tyes back to the beginning and will refernce a health controller script. The first line is ---> void DealDamage(). Under, put curly brackets and in the space in between, type
+----> HealthController.instance.DamagePlayer(damageAmount;. This line ensures that when the player takes damage it affects its health. Depending on how much health the player has and how much damage it takes it could either just hurt the player or its could straight up just kill the player.    
+
+![image](https://github.com/user-attachments/assets/7bae4537-d518-40a6-8eb9-5c04c60112cb)
+
+Depending on if you have a health controller script and a respawn controller script, this script should work but if not come back to see what you did wrong.
