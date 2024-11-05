@@ -25,5 +25,8 @@ Unlike the last line, the line you will next need to type does not have bits tha
 Don't worry though, you will be fine if and when you have the other two scripts that are referenced. As i mentioned before, i have made tutorials on the scripts needed. Under the void Update line create some
 space for your lines. First line you type is ----> public void DamagePlayer(int damageAmount). This reference will connect the Health Controller script and the Damage Player script. Type in curly brackets how
 we have done all the other times and in the line between type in ----> currentHealth -= damageAmount;. This line means, when the player is damaged it will lower its health. Under that line we type in an if statement.
-the if statement
+The if statement is a condition that must be met inorder for a specific something to happen. The if statement is ----> if (currentHealth < 0). Type in curly brackets underneath and in the line inbetween type
+----> currentHealth = 0;. Create another space under the last line (make sure its still inbetween the curly brackets) and type ---> RespawnController.instance.RespawnPlayer();. That last line references the Respawn Controller script. The lines of code we just typed mean that if the player gets damaged to the point where its health is zero, then it will die and respawn.
+
+![image](https://github.com/user-attachments/assets/432952fa-6183-4730-bfad-61fbdd576ef0)
 
