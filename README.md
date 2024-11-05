@@ -6,7 +6,7 @@ while making a damage player script i ghad to reference a health controller scri
 when testing scripts on unity floor seems to move with with player. Solution: named groun ground point. grouhndpiont in player so i took it out
 
 05/11/2024-
-
+when making health controller it didn't work. solution: typed currenthealth = maxhealth; in wrong bit of script so i moved it.
 
 
 
