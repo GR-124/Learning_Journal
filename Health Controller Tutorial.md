@@ -30,3 +30,8 @@ The if statement is a condition that must be met inorder for a specific somethin
 
 ![image](https://github.com/user-attachments/assets/432952fa-6183-4730-bfad-61fbdd576ef0)
 
+With that done, your script is complete. Below is the full script. If the script doesn't work, remeber you need the Damage Player script and the Respawn Controller script and if you have those and still something is wrong
+come back and see what you did wrong. Goddbye and your welcome for the tutorial :).
+
+![image](https://github.com/user-attachments/assets/cf4dacda-4d19-47b5-8fe7-c899a25ec4e5)
+
