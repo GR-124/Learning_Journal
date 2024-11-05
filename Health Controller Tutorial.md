@@ -23,4 +23,7 @@ That line means that when you start the game, the health the player starts with 
 
 Unlike the last line, the line you will next need to type does not have bits that already come with the script. This line refernces other components from other scripts, so with those scripts this won't work.
 Don't worry though, you will be fine if and when you have the other two scripts that are referenced. As i mentioned before, i have made tutorials on the scripts needed. Under the void Update line create some
-space for your lines. 
+space for your lines. First line you type is ----> public void DamagePlayer(int damageAmount). This reference will connect the Health Controller script and the Damage Player script. Type in curly brackets how
+we have done all the other times and in the line between type in ----> currentHealth -= damageAmount;. This line means, when the player is damaged it will lower its health. Under that line we type in an if statement.
+the if statement
+
