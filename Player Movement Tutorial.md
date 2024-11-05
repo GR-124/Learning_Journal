@@ -1,3 +1,4 @@
+# Player Movement Tutorial
 In this tutorial i will teach you how to move your 2D player using a movement script. Start by making a new project and making it 2D. 
 First you crate a empty player by going in the inspector, right click press 2D object then press square. Do the same for a floor (ground) and name them both player and ground.
 Create script in unity by right clicking in the project area and scrolling up to create. After clicking create, many options will appear and you press the one that says "C# Script".
