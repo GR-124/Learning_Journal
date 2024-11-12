@@ -28,4 +28,9 @@ you set the respawn point.
 
 After putting some space between the last lines, the next line of code to type in is ---> public void SetRespawn(Vector3 pos) then underneath put in the curly brackets and type in ----> respawnPoint = pos;.
 Both lines ensure that the player will respawn where you put the respawn point and because its public it can be moved in unity. Next, type in ---> public void RespawnPlayer() and underneath put in curly 
-brackets and type in ----> StartCoroutine(RespawnCo());. 
+brackets and type in ----> StartCoroutine(RespawnCo());. A StartCoroutine is like an if statment but when it a encounters a yeild statment it waits till the condition is met and continues from where it left of.
+A yeild staement pauses other functions to allow other functions to run then lets the first function to run again. 
+
+![image](https://github.com/user-attachments/assets/f7aed519-4e69-41a3-b39b-4b9ba1b95dfb)
+
+The next few lines of code will be ----> IEnumerator RespawnCo(), then put in the curly brackets and in between the first line you type is -----> thePlayer.SetActive(false);.   
