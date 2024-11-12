@@ -14,4 +14,15 @@ This line ensures that the game knows that the player is the one thats supposed 
 After the lines you just typed in create a new line and type in ---->  public void Awake () and type in the curly brackets on top of each other and a space between. In that space, you type in an if statement.
 That if statement is -----> if (instance != null). Under that, type in another set of curly brackets and inbetween type in Destroy(this.gameObject);. Null represents the absence of an object and so the line
 means if there is no object. The next line means that the player should get destroyed (disappear) when it dies. Next you type else, which acts as an alternative to the if staement then type in the curly brackets.
-Inbetween those brackets, type type in ----> instance = this; and under it type in ---> DontDestroyOnLoad(this);. 
+Inbetween those brackets, type type in ----> instance = this; and under it type in ---> DontDestroyOnLoad(this);. These lines make sure that the player can spawn and not get destroyed in because it spawned in the 
+respawn point.
+
+![image](https://github.com/user-attachments/assets/129c5801-3313-4530-b86a-9cde9887e4c8)
+
+After those lines go to void Start(). Under that line, there will already be curly brackets and inbetween you will type two lines in. The first line is -----> thePlayer = HealthController.instance.gameObject;. This line 
+references the Health Controller script and it ensures that the player and the health controller are connected so when the player dies and has to respawn the health controller knows the players health was zero and
+when it respawns it will have full health again. The second line is ---> respawnPoint = transform.position;. This line references the Respawn Point script. The line means that when the player will rrespawn wherever
+you set the respawn point.
+
+![image](https://github.com/user-attachments/assets/19d563b3-9b3e-4445-b117-7c25c273f9f7)
+
