@@ -26,3 +26,6 @@ you set the respawn point.
 
 ![image](https://github.com/user-attachments/assets/19d563b3-9b3e-4445-b117-7c25c273f9f7)
 
+After putting some space between the last lines, the next line of code to type in is ---> public void SetRespawn(Vector3 pos) then underneath put in the curly brackets and type in ----> respawnPoint = pos;.
+Both lines ensure that the player will respawn where you put the respawn point and because its public it can be moved in unity. Next, type in ---> public void RespawnPlayer() and underneath put in curly 
+brackets and type in ----> StartCoroutine(RespawnCo());. 
