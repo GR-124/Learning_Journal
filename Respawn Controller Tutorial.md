@@ -10,3 +10,6 @@ means that the player does not respawn immediately. You can change how long the 
 This line ensures that the game knows that the player is the one thats supposed to die and respawn.
 
 ![image](https://github.com/user-attachments/assets/cbedb2f9-297f-4495-8db8-4bdae397c787)
+
+After the lines you just typed in create a new line and type in ---->  public void Awake () and type in the curly brackets on top of each other and a space between. In that space, you type in an if statement.
+That if statement is -----> if (instance != null). Under that, type in another set of curly brackets and inbetween type in Destroy(this.gameObject);. 
