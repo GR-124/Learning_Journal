@@ -44,7 +44,7 @@ Don't worry about the green lines of code.
 ![image](https://github.com/user-attachments/assets/263fc960-bffd-4b22-93c7-c0525120e8c1)
 ![image](https://github.com/user-attachments/assets/e4c100d2-5918-4e89-aa8f-00b25b20be9e)
 
-When finished, the code should work but if not then come back here and see what you did wrong. 
+When finished, the code should work (if you have the other scripts) but if not then come back here and see what you did wrong. Goodbye and your welcome for the tutorial :). 
 
 
 
