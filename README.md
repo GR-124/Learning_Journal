@@ -8,5 +8,7 @@ when testing scripts on unity floor seems to move with with player. Solution: na
 05/11/2024-
 when making health controller it didn't work. solution: typed currenthealth = maxhealth; in wrong bit of script so i moved it.
 
+12/11/2024-
+i don't know what null means and i have to explain it in my tutorial. Solution: i googled it
 
 
