@@ -33,4 +33,18 @@ A yeild staement pauses other functions to allow other functions to run then let
 
 ![image](https://github.com/user-attachments/assets/f7aed519-4e69-41a3-b39b-4b9ba1b95dfb)
 
-The next few lines of code will be ----> IEnumerator RespawnCo(), then put in the curly brackets and in between the first line you type is -----> thePlayer.SetActive(false);.   
+The next few lines of code will be ----> IEnumerator RespawnCo(), then put in the curly brackets and in between the first line you type is -----> thePlayer.SetActive(false);. The IEnumerator's function is to go
+through each yeild and makes sure that what its paused will run again. The next line under the last you typed will be ----> yeild return new WaitForSeconds(waitToRespawn);. This line makes it so the player will
+have to wait a few seconds before respawning. The next line is ----> thePlayer.transform.position = respawnPoint; and under it the line is ----> thePlayer.SetActive(true);. Those two lines make sure that where ever i move the spawn point is where the player will spawn. 
+
+![image](https://github.com/user-attachments/assets/40b46062-5167-49d2-b2ec-938a373d19db)
+
+Don't worry about the green lines of code.
+
+![image](https://github.com/user-attachments/assets/263fc960-bffd-4b22-93c7-c0525120e8c1)
+![image](https://github.com/user-attachments/assets/e4c100d2-5918-4e89-aa8f-00b25b20be9e)
+
+
+
+
+
