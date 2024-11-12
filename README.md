@@ -10,7 +10,7 @@ when making health controller it didn't work. solution: typed currenthealth = ma
 
 12/11/2024-
 i don't know what null means and i have to explain it in my tutorial. Solution: i googled it
-i don't know what StartCoroutine means and i have to explain it in my tutorial. Solution: i googled it again
-
+i don't know what StartCoroutine means and i have to explain it in my tutorial. Solution: i googled it 
+i dont know what IEnumerator means and i have to explain it in my tutorial. Solution: i googled it
 
 
