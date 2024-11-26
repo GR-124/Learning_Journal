@@ -15,3 +15,4 @@ i dont know what IEnumerator means and i have to explain it in my tutorial. Solu
 
 26/11/2024-
 3 of my tutorials are connected and i have to keep referencing them. Solution: imma combine them but its gonna be long :( 
+when combining the 3 scripts, one references a 4th script so now i have to add it to the tutorial so that means more work :( Solution: just do it 
