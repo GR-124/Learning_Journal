@@ -125,19 +125,19 @@ in a box collider or box collider 2D and the tick the box that says trigger. Whe
 it will allow the player to respawn at the point of where it came in contact with the respawn point.
 
 Now on to the actual script part. Right click on the project part of unity and go to create then to C# Script. When in Visual studios, go under the curly bracket (do not delete it cos they are important) thats just under the line, public class RespawnPoint : MonoBehaviour. Go down under the default code and make some space for the one we will be typing in and make sure no curly brackets ({}) get deleted. The first line of code
-you need to type is ----> private void OnTriggerEnter2D
+you need to type is ----> private void OnTriggerEnter2D(Collider2D collison). This line means that when the player comes in contact with the collider we put in before something will happen. Next thing to do is go
+under your previous line and type in ----> if (collision.CompareTag("Player")). This if statement means that if the player comes in contact with the collider something will happen and it only applies to the player.
+Under that line type in the curly brackets with a line inbetween them and in the the space type ----> RespawnController.instance.SetRespawn(this.transform.position);.This line ensures that the player will respawn 
+where it first came in contact with the respawn point. 
+When finished, the code should work (if you have the other scripts) but if not then come back here and see what you did wrong. The full script bellow. Goodbye and your welcome for the tutorials :). 
+
+![image](https://github.com/user-attachments/assets/30e05870-ad92-4b23-8175-5d73f7cccc51)
 
 
 
 
 
 
-
-
-
-
-
-When finished, the code should work (if you have the other scripts) but if not then come back here and see what you did wrong. Goodbye and your welcome for the tutorial :). 
 
 
 
