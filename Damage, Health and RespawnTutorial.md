@@ -1,5 +1,6 @@
 # Damage, Health and Respawn Player Tutorials
-In this tutorial i will show you how to make a Damage Player script, a Health Controller script and a Respawn Controller script. I will start with the Damage Player script.
+In this tutorial i will show you how to make a Damage Player script, a Health Controller script and a Respawn Controller script. In the Respawn Controller script it references a 4th script.
+The 4th script is for the Respawn Point. These scripts are for 2D games but with minor tweaks they can be for 3D as well. I will start with the Damage Player script.
 ## Damage Player script
 Before i start you should know a Health controller and Respawn Controller script is needed so you can reference it in this script or
 they reference each other.If you don't have one thats fine because further down there will be tutorials for both. First thing you do is make sure you have a player, ground and for now just add an 
@@ -117,6 +118,24 @@ With that done, your script is complete. Below is the full script. If the script
 ![image](https://github.com/user-attachments/assets/1bd99178-2bed-4f81-abbb-8801f48e8108)
 
 ## Respawn Point script
+This is the fourth and final script in this tutorial, the Respawn Point script. First thing to do is to go to the hiearchy in unity and and create an empty. Call that empty Respawn Point and drag it
+into Respawn Manager. The script will be put into Respawn point. When in the inspector of Respawn Point there will be a white box in the top left corner. I would advise you click it and change the colour.
+The box (when its colour is changed), shows you where the respawn point will be and you can move it. While in the inspector add a component. Depending on if you are making an 2D OR 3D game you add
+in a box collider or box collider 2D and the tick the box that says trigger. When that box is ticked it will allow the player to pass through it and when it does it will trigger somkething, in this case
+it will allow the player to respawn at the point of where it came in contact with the respawn point.
+
+Now on to the actual script part. Right click on the project part of unity and go to create then to C# Script. When in Visual studios, go under the curly bracket (do not delete it cos they are important) thats just under the line, public class RespawnPoint : MonoBehaviour. Go down under the default code and make some space for the one we will be typing in and make sure no curly brackets ({}) get deleted. The first line of code
+you need to type is ----> private void OnTriggerEnter2D
+
+
+
+
+
+
+
+
+
+
 
 When finished, the code should work (if you have the other scripts) but if not then come back here and see what you did wrong. Goodbye and your welcome for the tutorial :). 
 
