@@ -13,4 +13,5 @@ i don't know what null means and i have to explain it in my tutorial. Solution: 
 i don't know what StartCoroutine means and i have to explain it in my tutorial. Solution: i googled it 
 i dont know what IEnumerator means and i have to explain it in my tutorial. Solution: i googled it
 
-
+26/11/2024-
+3 of my tutorials are connected and i have to keep referencing them. Solution: imma combine them but its gonna be long :( 
