@@ -23,3 +23,7 @@ when combining the 3 scripts, one references a 4th script so now i have to add i
 
 when in test game to test scripts, the player disappears and idk why. Solution: i put the respawn controller script in the player and in the respawn manager and so they deleted eachother, i just took the scrpit out of the player and it was fixed.
 
+03/12/2024-
+in my npc script i dont remember what move rate means. Solution: i remembered. its how long (in seconds) the npc waits till it moves agaon after moving so it can move again.
+
+npc would stop moving at random and its speed was random. Solution: i changed the random range from -1, 1 to -2, 2 because it would include the numbers between like 1 and -1.
