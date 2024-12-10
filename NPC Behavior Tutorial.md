@@ -22,6 +22,6 @@ The last two lines we need to type in depend on you. Type in ----> dirX = Random
 
 ![image](https://github.com/user-attachments/assets/e3e4235f-3f0e-4eac-ac63-e82923ba3cfb)
 
-Underneath is the full script.
+Underneath is the full script and the code should work but if not then come back here and see what you did wrong. Goodbye and your welcome for the tutorial :) .
 
 ![image](https://github.com/user-attachments/assets/549d3734-565a-4adf-88d9-e9ed81e0dfe7)
