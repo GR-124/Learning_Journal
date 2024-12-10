@@ -8,5 +8,11 @@ type in another two lines of code. Those lines are ----> public int dirX; and un
 
 ![image](https://github.com/user-attachments/assets/c951efdd-bf79-4a23-9d9a-2e8490548baf)
 
+The next line to type is ----> private float moveCounter;. The moveCounter turns where the NPC is into number to track where it goes and we put it as priavte becaue we don't need to change it in unity later. Under that line,
+you will type in a new one. That line is -----> private new RigidBody2D rigidbody2D {get { return GetComponent<RigidBody2D>() ?? default(RigidBody2D); }}. This line ensures that you can access rigidbody components such as mass and gravity. It basically means the NPC will obey the laws of physics. 
 
+![image](https://github.com/user-attachments/assets/55bf155d-15cb-4bd3-be96-2bda27f4657c)
 
+Now go down and type ---> private void Update() and go to the line underneath and create the first set of curly brackets. We will be typing in an if staement, so first type in ----> if (rigidbody2D) and create two new curly brackets with a few lines between them. In the first line inbetween the curly brackets type in -----> if (moveCounter > moveRate). We need to then make more curly brackets, the same way we just done. In that third set of curly brackets type ----> ChangeDirection(); and underneath type ---> moveCounter = 0f;. What we just typed means that when the moveCounter is tracking the NPC and its number is less then 0 it will make the NPC change direction. Under the third set of curly brackets but still inside the second is where we will continue to type. First type in -----> Vector2 vel = new Vector2(dirX * speed, dirY * speed);. Two lines down, type in ----> rigidbody2D.velocity = Vector2.Lerp(rigidbody2D.velocity, vel Time.deltaTime * 10f);. Go down two lines again and type -----> moveCounter += Time.deltaTime;. Those last three lines all control the speed and distance that the NPC will go. You may be asking what Lerp is and what is means. Lerp stands for linear interpolation. What Lerp does ,in simple terms, is it changes the value of on object for where it was to where it moved to.
+
+![image](https://github.com/user-attachments/assets/79757de7-ed8c-4f23-90dc-e2469806fc11)
