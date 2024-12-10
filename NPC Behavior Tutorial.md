@@ -1,5 +1,5 @@
 # NPC Behavaior Tutorial
-In this tutorial I will teach you how to create an NPC (non playable charater) and have it move in a 2D game. First thing to do is create the npc by going to the hierarchy (left side) and right click. Once you right click many options appear and you need to go down to 2D object and once clicked more options appear and press Sprites. After that, even more options will appear. Go to square be thats what i will be using. Name the square npc and in the top of its inspector (right side) and so to Layer. Create a new layer called NPC because it will be important afterwards. The top of the NPC's inspector says layer and when pressed there will be different layers. You created the NPC layer and thats the layer you press. In the inspector of the NPC add a Rigidbody2D and Box Collider 2D. Go back to the hierarchy and create an empty object and call it Barrier. In its inspector there is a cube, press it and give it an icon (give it a colour). Copy the barrier and place both in places where you want the NPC to move in between.
+In this tutorial I will teach you how to create an NPC (non playable charater) and have it move in a 2D game. First thing to do is create the npc by going to the hierarchy (left side) and right click. Once you right click many options appear and you need to go down to 2D object and once clicked more options appear and press Sprites. After that, even more options will appear. Go to square be thats what i will be using. Name the square npc and in the top of its inspector (right side) and so to Layer. Create a new layer called NPC because it will be important afterwards. The top of the NPC's inspector says layer and when pressed there will be different layers. You created the NPC layer and thats the layer you press. In the inspector of the NPC add a Rigidbody2D and Box Collider 2D. Go back to the hierarchy and create an empty object and call it Barrier. In its inspector there is a cube, press it and give it an icon (give it a colour). Give the barrier a Box collider2D and RigidBody2D. Make sure to make the RigidBody2D static. Copy the barrier and place both in places where you want the NPC to move in between.
 
 On to the script part. First create a script in unity by right clicking in the project area and scrolling up to create. After clicking create, many options will appear and you press the one that says "C# Script". 
 You will be taken into visual studios where your script is. First thing you should know is that after writing a line of code you have to put a semi colon (;) at the end inorder for it to work. Go under the first curly
@@ -18,4 +18,10 @@ Now go down and type ---> private void Update() and go to the line underneath an
 ![image](https://github.com/user-attachments/assets/79757de7-ed8c-4f23-90dc-e2469806fc11)
 
 Now underneath all three of the curly brackets you just made earlier create some space and type -----> private void ChangeDiretion() and under it make the curly brackets like how we've made them so many times before.
-The last two lines we need to type in depend on you.
+The last two lines we need to type in depend on you. Type in ----> dirX = Random. Range(-1, 1); amd underneath  type ----> dirY = Random. Range(-1, 1); The numbers in the X direction can and should be changed base on your game and how far you want the NPC to move, for example in my game its (-2, 4);. The Y direction does not really matter unless you want the NPC to float or fly. Ignore the green stuff, i typed them in as notes and things i should remember.
+
+![image](https://github.com/user-attachments/assets/e3e4235f-3f0e-4eac-ac63-e82923ba3cfb)
+
+Underneath is the full script.
+
+![image](https://github.com/user-attachments/assets/549d3734-565a-4adf-88d9-e9ed81e0dfe7)
