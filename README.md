@@ -34,3 +34,7 @@ i forgot what the x and y axis control. Solution: i remembered by moving objects
 i forgot what GetComponent<Rigidbody>(); means. Solution: i googled it and found out it allows you to access rigidbody components
 
 i dont know what Lerp means. Solution: i googled it but did not understand so i looked on reddit and they explained better. Lerping changes the value of on object for where it was to where it moved to.
+
+started doing script for shooting but vid im following dont make sense. Solution: firm it
+
+unity don't understand script but the script is perfectly fine. Solution: dont got one yet, should probably ask paul.
