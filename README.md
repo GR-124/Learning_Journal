@@ -33,4 +33,4 @@ i forgot what the x and y axis control. Solution: i remembered by moving objects
 
 i forgot what GetComponent<Rigidbody>(); means. Solution: i googled it and found out it allows you to access rigidbody components
 
-i dont know what Lerp means. Solution: i googled it but did not understand so i looked on reddit and they explained better. Lerp is 
+i dont know what Lerp means. Solution: i googled it but did not understand so i looked on reddit and they explained better. Lerping changes the value of on object for where it was to where it moved to.
