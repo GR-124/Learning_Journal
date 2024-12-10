@@ -2,7 +2,7 @@
 In this tutorial i will teach you how to move your 2D player using a movement script. Start by making a new project and making it 2D. 
 First you crate a empty player by going in the inspector, right click press 2D object then press square. Do the same for a floor (ground) and name them both player and ground.
 Create script in unity by right clicking in the project area and scrolling up to create. After clicking create, many options will appear and you press the one that says "C# Script".
-You will be taken into visual studios where your script is. First thing you should know is that after writing a line of code you have to put a semi colon (:) at the end inorder for it
+You will be taken into visual studios where your script is. First thing you should know is that after writing a line of code you have to put a semi colon (;) at the end inorder for it
 to work.
 
 The first thing you do is create a public Rigidbody2D then space and type  theRB. this enables your player to act under the laws of physics.
