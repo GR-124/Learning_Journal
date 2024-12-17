@@ -1,1 +1,1 @@
-# MainMenu Tutorial
+# Main Menu Tutorial
