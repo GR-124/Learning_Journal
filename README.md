@@ -42,3 +42,4 @@ unity don't understand script but the script is perfectly fine. Solution: dont g
 ## 17/12/2024-
 i dont know what to write in my if & else staements. Solution: i wrote the wrong type of if & else staement and i needed to reference unity editor. The correct statements were #if and #else. I also had to make an #endif
 
+start button wont work but it has nothing to do with script. Solution: 
