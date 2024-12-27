@@ -46,5 +46,5 @@ i dont know what to write in my if & else staements. Solution: i wrote the wrong
 
 start button wont work but it has nothing to do with script. Solution: i didn't add any componants to the buuton.
 
-27/12/24- 
+## 27/12/24- 
 my learning journal is not very discriptive and had solutions like "google it". Solution: i have gone back and added more to my solutions because they were too simple and didn't tell you the answer tot the problem.
