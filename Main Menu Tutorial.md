@@ -18,4 +18,6 @@ The final part of this code is for the exit button. First type in ---> public vo
 
 ![image](https://github.com/user-attachments/assets/93dd0530-ea3b-4306-aa64-d9ee7a183e17)
 
-With that done, the script is complete. Underneath is the full script. 
+With that done, the script is complete. Underneath is the full script and if anything has gone wrong with the script, come back and see that you did wrong. Goodbye and your welcome for the tutorial :).
+
+![image](https://github.com/user-attachments/assets/e7993893-8649-4a65-90fd-d0276e254eae) 
