@@ -14,4 +14,8 @@ The next line of the script you need to type in is ----> public void options(). 
 
 ![image](https://github.com/user-attachments/assets/deeb76c0-33ca-460a-bc34-fdac8ef2ed6f)
 
-the fianl part of this code is for the exit button. first 
+The final part of this code is for the exit button. First type in ---> public void exit(). Next create the curly brackets. Some of the coming lines will have a # and they should be outside the curlly brackets. Next thing to  type underneath the last line and between the curly brackets ---> #if UNITY_EDITOR. This is a different type of if statement than the ones I have done in previous tutorials. Back inside the curly brackets and under the last line type ----> EditorApplication.ExitPlaymode();. This means when you press exit it will take you out of the game. Next you go down a line and type -----> #else then down another line ----> Application.Quit(); and down a line one more time and type ----> #endif. The else and application quit part were just incase of if you choose to quit and close the game by closing the application instead of just pressing the quit button. 
+
+![image](https://github.com/user-attachments/assets/93dd0530-ea3b-4306-aa64-d9ee7a183e17)
+
+
